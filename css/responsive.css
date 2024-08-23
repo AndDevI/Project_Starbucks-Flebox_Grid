@@ -5,7 +5,7 @@
     }
 }
 
-@media (min-width:769px) and (max-width:1140) {
+@media (min-width:426px) and (max-width:768px) {
     .container {
         padding-left: 1.25rem;
         padding-right: 1.25rem;
@@ -21,5 +21,60 @@
 
     .area-3 {
         grid-template-columns: 3fr 2fr;
+    }
+}
+
+@media (max-width:425px) {
+    .container {
+        padding-left: 1.25rem;
+        padding-right: 1.25rem;
+    }
+
+    .menu {
+        padding-left: 1.25rem;
+    }
+
+    .seacher {
+        max-width: 5rem;
+    }
+
+    h1 {
+       font-size: 3.125rem;
+       line-height: 3.125rem; 
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        line-height: 1.875rem; 
+    }
+
+    .banner .imgs img {
+        width: 4.25rem;
+        height: 4.25rem;
+        border: 3px solid #117050;
+        border-radius: 50%;
+        margin-right: 0.5rem;
+    }
+
+    .area-1,
+    .area-2,
+    .area-3,
+    .area-4 {
+        grid-template-columns: 1fr;
+    }
+    
+    .area-1 .content,
+    .area-2 .content,
+    .area-3 .content {
+        padding: 2.5rem;
+    }
+
+    .area-5 {
+        height: 12.5rem;
+    }
+
+    footer {
+        font-size: 0.75rem;
+        padding: 2.5rem 1.25rem;
     }
 }
