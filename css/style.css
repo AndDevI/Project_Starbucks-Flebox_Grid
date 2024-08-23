@@ -223,3 +223,25 @@ input[type="text"] {
     background-size: cover;
     background-position: center;
 }
+
+.area-4 {
+    display: grid;
+    grid-template-columns: 31.25rem 1fr;
+    background-color: #e8e9ee;
+}
+
+.area-4 .content {
+    padding: 7.5rem 5rem;
+}
+
+
+.area-4 .content .text {
+    margin-bottom: 3.125rem;
+    line-height: 25px;
+} 
+
+.area-4 .img-1 {
+    background-image: url('../assets/images/bg3.jpg');
+    background-size: cover;
+    background-position: center;
+}
